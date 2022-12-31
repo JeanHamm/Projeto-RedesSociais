@@ -29,6 +29,6 @@ body, html{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    height: 325px;
-    width: 200px;
+    height: 70vh;
+    width: 40vw;
  }
