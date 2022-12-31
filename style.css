@@ -20,6 +20,15 @@ body, html{
     height: 100vh;
     position: relative;
  }
+ iframe{
+    height: 238.5px;
+    width: 135px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+
+ }
  section#celular{
     position: absolute;
     top: 50%;
@@ -29,6 +38,19 @@ body, html{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    height: 70vh;
-    width: 40vw;
+    height: 333.5px;
+    width: 156px;
+ }
+ section#redes{
+ 
+ }
+ a{
+    display: block;
+    text-align: right;
+ }
+ img{
+    border-radius: 200px;
+    height: 30px;
+    width: 30px;
+ }
  }
