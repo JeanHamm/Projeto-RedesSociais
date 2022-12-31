@@ -45,12 +45,17 @@ body, html{
  
  }
  a{
-    display: block;
     text-align: right;
  }
  img{
-    border-radius: 200px;
-    height: 30px;
-    width: 30px;
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 1px 1px 2px black;
+    box-sizing: border-box;
  }
+ img:hover{
+    width: 60px;
+    padding: 2px;
+    border: 2px solid white;
  }
